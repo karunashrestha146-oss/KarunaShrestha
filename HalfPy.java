@@ -1,7 +1,7 @@
 package KarunaShrestha;
 
 public class HalfPy {
-    public static void main(String{}args)
+    public static void main(String[] args)
 
     {
         int n = 4;
@@ -12,8 +12,9 @@ public class HalfPy {
                 // print space
                 System.out.print("  ");
             }
+            // inner loop star print
             for (int j = 1; j <= i; j++) {
-                System.out.println("*");
+                System.out.print("*");
             }
             System.out.println();
         }
