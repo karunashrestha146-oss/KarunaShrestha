@@ -3,19 +3,17 @@ package KarunaShrestha;
 import java.util.*;
 
 public class Function {
-    public static void PrintFactorial(int n) {
-        int factorial = 1;
-        for (int i = n; i >= 1; i--) {
-            factorial = factorial * i;
-
-        }
-        System.out.println(factorial);
-        return;
+    public static int average(int a, int b, int c) {
+        int avg = (a + b + c) / 3;
+        return avg;
     }
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        PrintFactorial(n);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int avg = average(a, b, c);
+        System.out.println("The average is:" + avg);
     }
 }
