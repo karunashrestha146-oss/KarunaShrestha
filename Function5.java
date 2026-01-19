@@ -2,7 +2,7 @@ package KarunaShrestha;
 
 import java.util.*;
 
-public class Function {
+public class Function5 {
     public static int average(int a, int b, int c) {
         int avg = (a + b + c) / 3;
         return avg;
